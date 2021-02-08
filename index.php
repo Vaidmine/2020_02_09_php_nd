@@ -3,21 +3,24 @@ echo 'uzduotis 1';
 echo '<br>';
 $vardas = 'Vardas';
 $pavarde = 'Pavarde';
-$gimimometai = 1980;
+$gimimometai = 1900;
 $dabartiniaimetai = 2020;
-
-echo "As esu $vardas.$pavarde. Man yra $dabartiniaimetai - $gimimometai metu";
+$sum = $dabartiniaimetai - $gimimometai;
+echo "As esu $vardas.$pavarde. Man yra $sum metu";
+// ------------------
+echo '<br>';
+echo 'uzduotis 2';
+echo '<br>';
  
+ 
+echo(rand(0,4));
+echo '<br>';
+echo(rand(0,4));
+
+ 
+
 ?> 
 
-<?php
+ 
 
-$first_number = 10;
-$second_number = 20;
-$third_number = 100;
-
-$sum_total = $third_number - $second_number + $first_number;
-
-print ($sum_total);
-
-?>
+ 
